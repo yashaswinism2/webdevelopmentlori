@@ -1,0 +1,159 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05-Aug-2021, 5:26:51 pm
+    Author     : my pc
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+.navbar-brand{
+    float: left;
+}
+
+.navbar-brand{
+    float: left;
+    width: 30px;
+    height: 20px;
+}
+
+.nav{
+    position: absolute;
+    bottom: 0;
+    margin-left: 90px;
+}
+
+.grid{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tab{
+    padding: 5px 5px 5px 5px;
+   box-shadow: 2px 2px 2px #888888;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
+.post{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+@media screen and (max-width:500px){
+    h1{
+        font-size: 10px;
+    }
+    .container ul li{
+    font-size: 15px;
+}
+.container p span{
+    white-space: nowrap;
+    color: red;
+    font-size: 12px;
+}
+.container h3{
+    font-size: 15px;
+    color: #3c57a6;
+    font-weight: bolder
+}
+}
+
+.container ul{
+    font-size: 35px;
+    color: #3c57a6;
+}
+.nowrap{
+    white-space: nowrap;
+    color: red;
+    font-size: 20px;
+}
+.free{
+    font-size: 25px;
+    color: #3c57a6;
+    font-weight: bolder
+}
+
+footer h3{
+    color: #3c57a6;
+}
+
+footer ul li a{
+    color: black;
+}
+
+.navbar-brand{
+    float: left;
+}
+
+.nav{
+    position: absolute;
+    bottom: 0;
+    margin-left: 90px;
+}
+.header-image img{
+    border-radius: 100%;
+    width: 50px;
+    height: 55px;
+    margin-top: -20px;
+    overflow: hidden;
+}
+footer{
+    padding: 4px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown{
+    float: right;
+    margin-left: 200px;
+}
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
